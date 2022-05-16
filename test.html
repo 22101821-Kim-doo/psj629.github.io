@@ -11,7 +11,7 @@
             list-style-type: none;
             margin: 0;
             padding: 0;
-            width: 7%;
+            width: 10%;
             background-color: #f1f1f1;
             position: fixed;
             height: 100%;
@@ -21,13 +21,16 @@
         li a {
             display: block;
             color: #000;
-            padding: 8px 16px;
+            padding: 15px 25px;
             text-decoration: none;
         }
 
         li a.active {
             background-color: #555;
             color: white;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            font-size: 20px;
         }
 
         li a:hover:not(.active) {
@@ -38,12 +41,13 @@
         .bg-1 {
             background-color: rgb(45, 170, 253);
             color: white;
+            font-size: 20px;
         }
 
         .container-fluid {
-            padding-top: 70px;
-            padding-bottom: 70px;
-            margin-left: 135px;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            margin-left: 100px;
             text-align: center;
         }
     </style>
@@ -53,13 +57,18 @@
 
     <ul>
         <li><a class="active" href="#">Home</a></li>
-        <li><a href="#">text</a></li>
-        <li><a href="#">text</a></li>
-        <li><a href="#">text</a></li>
+        <li><a href="#">서울시민들의 일상 생활</a></li><br>
+        <li><a href="#">서울 시민과 코로나 19</a></li><br>
+        <li><a href="#">공동체의 노력</a></li><br>
+        <li><a href="#">서울의 외국인</a></li><br>
+        <form action="project.html" method="post">
+            <input type="text" name="feedback" id="text" value="feedback"><br>
+            <input type="submit" onclick="alert('Thank you')"> <a href="project.html"></a>
+        </form>
     </ul>
 
     <div style="margin-left:10%;padding:1px 16px;height:1000px;">
-        <h1>text</h1>
+        <h1>Survey Guide</h1>
         <img src="bird.jpg" alt="Bird" width="1000" height="500" class="img-rounded">
     </div>
 
